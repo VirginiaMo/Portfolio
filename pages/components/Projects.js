@@ -4,6 +4,11 @@ import CardHeader from '@material-ui/core/CardHeader';
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 import { Button } from '@material-ui/core';
+import Image from 'next/image';
+import project from '/public/project.png';
+import foto from '/public/project2.png';
+import imagen from '/public/project3.png';
+import fotito from '/public/project4.png';
 
 
 const Projects = () => {
@@ -14,9 +19,9 @@ const Projects = () => {
       <CardHeader className="titleFood"
         title="Food App"
       />
-      <img
+      <Image
       className="imgFood"
-       src="project.png" 
+       src={project} 
        height="400"
        width="300"/>
       
@@ -40,14 +45,14 @@ const Projects = () => {
     title="Web Page"
     >
     </CardHeader>
-    <img
+    <Image
     className="imgweb"
-       src="project2.png" 
+       src={foto} 
        height="400"
        width="300"/>
        <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-        This is a Web Page with a responsive design, where I've worked with HTML and CSS.
+        This is a Web Page with a responsive design, where I ve worked with HTML and CSS.
 
         </Typography>
       </CardContent>
@@ -65,9 +70,9 @@ const Projects = () => {
     title="Birthday Reminder"
     >
     </CardHeader>
-    <img
+    <Image
     className="imgBirthday"
-       src="project3.png" 
+       src={imagen} 
        height="400"
        width="300"/>
        <CardContent>
@@ -91,9 +96,9 @@ The idea is to use this app as a birthday reminder of your friends.
     title="Form Validation"
     >
     </CardHeader>
-    <img
+    <Image
     className="imgForm"
-       src="project4.png" 
+       src={fotito} 
        height="400"
        width="300"/>
        <CardContent>

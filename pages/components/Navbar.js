@@ -1,3 +1,5 @@
+import Image from 'next/image'
+import Mifoto from '/public/yo.jpg'
 
 
 
@@ -15,7 +17,8 @@ const Navbar = () => (
     <a className="navSkill"href="#skills">Skills</a>
     <a className="navProjects"href="#awards">Projects</a>
     </div>
-    <span className="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="yo.jpg" alt="..." /></span>
+    <span className="d-none d-lg-block"><Image  width={150}
+      height={150} className="img-fluid img-profile rounded-circle mx-auto mb-2" src={Mifoto} alt="..." /></span>
 </a>
 
 <div className="collapse navbar-collapse" id="navbarResponsive">
