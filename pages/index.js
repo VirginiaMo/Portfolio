@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import { Button } from '@material-ui/core';
 import Image from 'next/image';
-import linkedin from '/public/linkedin.ico';
+import linkedin from '/public/linkedinIco.png';
 import github from '/public/github.ico';
 import bootstrap from '/public/bootstrap.png';
 import react from '/public/react.png';
@@ -47,30 +47,29 @@ export default function Home() {
                     <h1 className="mb-0">
                         Virginia &nbsp;
                         <span className="text-primary">Morilla</span>
+                        
                     </h1>
                     <div className="subheading mb-5">
-                    &nbsp; &nbsp;TLF: 600 041 821,  &nbsp; Barcelona,  &nbsp; &nbsp;
+               
+                     &nbsp; &nbsp;TLF: 600 041 821,  &nbsp; Barcelona,  &nbsp; &nbsp;
                         <a href="mailto:name@email.com">virginia.morilla@gmail.com</a>
+                      
                     </div>
-                    <h3>Frontend Developer</h3>
+                      
+                   
+                      
+                    <h3>Frontend Developer </h3> 
                     <p className="lead mb-5" align="justify">Multidisciplinary professional with a passion for web development and technology. Originally with philology studies, but over time I discovered that my calling was to be a part of the development industry. I am a self-made web developer, using the latest frontend technologies and frameworks, and can collaborate in an office environment working within a team.
 I’m a responsible, motivated, hardworking and qualified person, I´m a fast learner and feel happy nurturing a positive working environment.
 I´m good at adapting quickly to changes, self-organized and always on time.
 I can communicate in different languages, and have experience in multicultural environments, as well as having lived in different countries, which gives me experience working with people from different cultures and backgrounds.</p>
-                    <div className="containerMedia">
-    
-                        
-                        <a href="https://www.linkedin.com/in/virginiamorilla/"> 
-                        <Image 
-                        className="linkedin"
-                          src={linkedin} 
-                          height={50}
-                          width={50}
-                        /></a>
-                        
+                   
+
+                    <div className="containerMedia">   
                         <Button className="pdf"variant="outlined"><a href="./Virginia-Morilla-cv-en.pdf" download> Download CV</a></Button>
-                  
+                      
                     </div>
+                    
                 </div>
             </section>
             <hr className="m-0" />
