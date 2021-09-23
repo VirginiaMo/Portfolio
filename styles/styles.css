@@ -11976,4 +11976,75 @@
 
 .pdf a{
   text-decoration: none;
+
+}
+.pdf{
+  margin-top: -30px;
+  margin-left: 20px;
+}
+/*--------------------------------iconos------------------------------------------*/
+.bootstrap{
+ margin-top:-95px;
+  margin-left: 84px;
+
+}
+.react{
+  margin-top:-85px;
+  margin-left: 170px;
+}
+.css3{
+  margin-top:-80px;
+  margin-left: 240px;
+}
+.html{
+margin-left: 10px;
+margin-top: 20px;
+}
+.javascript{
+  margin-left: 88px;
+  margin-top:-89px;
+}
+.node{
+margin-left: 170px;
+margin-top:-89px;
+}
+.material{
+
+  margin-left: 255px;
+  margin-top:-86px;
+}
+/*------------------------------------------------------------screen 700-------------------------------------------------------*/
+
+@media (min-width: 700px){
+  .bootstrap{
+    margin-top:-95px;
+     margin-left: 120px;
+   
+   }
+   .react{
+     margin-top:-85px;
+     margin-left: 230px;
+   }
+   .css3{
+     margin-top:-80px;
+     margin-left: 330px;
+   }
+   .html{
+   margin-left: 10px;
+   margin-top: 20px;
+   }
+   .javascript{
+     margin-left: 120px;
+     margin-top:-87px;
+   }
+   .node{
+   margin-left: 225px;
+   margin-top:-89px;
+   }
+   .material{
+   
+     margin-left: 338px;
+     margin-top:-86px;
+   }
+   
 }

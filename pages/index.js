@@ -1,9 +1,21 @@
 
-import { useState } from 'react';
 import styles from '../styles/Home.module.css';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import { Button } from '@material-ui/core';
+import Image from 'next/image';
+import linkedin from '/public/linkedin.ico';
+import github from '/public/github.ico';
+import bootstrap from '/public/bootstrap.png';
+import react from '/public/react.png';
+import css3 from '/public/css3.png';
+import html from '/public/html.png';
+import javascript from '/public/javascript.png';
+import  node from '/public/node.png';
+import  material from '/public/material.png';
+
+
+
 
 
 export default function Home() {
@@ -45,9 +57,17 @@ export default function Home() {
 I’m a responsible, motivated, hardworking and qualified person, I´m a fast learner and feel happy nurturing a positive working environment.
 I´m good at adapting quickly to changes, self-organized and always on time.
 I can communicate in different languages, and have experience in multicultural environments, as well as having lived in different countries, which gives me experience working with people from different cultures and backgrounds.</p>
-                    <div className="social-icons">
-                        <a className="social-icon" href="https://www.linkedin.com/in/virginiamorilla/"><i className="fab fa-linkedin-in"></i></a>
-                        <a className="social-icon" href="https://github.com/VirginiaMo"><i className="fab fa-github"></i></a>
+                    <div className="containerMedia">
+    
+                        
+                        <a href="https://www.linkedin.com/in/virginiamorilla/"> 
+                        <Image 
+                        className="linkedin"
+                          src={linkedin} 
+                          height={50}
+                          width={50}
+                        /></a>
+                        
                         <Button className="pdf"variant="outlined"><a href="./Virginia-Morilla-cv-en.pdf" download> Download CV</a></Button>
                   
                     </div>
@@ -132,16 +152,54 @@ I worked in a team environment, closely reporting to my supervisor and sharing k
                     <h2 className="mb-5">Skills</h2>
                     <div className="subheading mb-3">Programming Languages & Tools</div>
                     <ul className="list-inline dev-icons">
-                        <li className="list-inline-item"><i className="fab fa-html5"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-css3-alt"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-js-square"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-github"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-react"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-sass"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-bootstrap"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-wordpress"></i></li>
-                        <li className="list-inline-item"><i className="fab fa-npm"></i></li>
+                        <li className="list-inline-item"><Image 
+                        src={github}
+                        width='90'
+                        height='90'
+                        ></Image></li>
+                       
+                          <li className='bootstrap'><Image
+                        src={bootstrap}
+                        width='70'
+                        height='70'
+                        ></Image></li>
+
+                        <li className='react'><Image
+                        src={react}
+                        width='60'
+                        height='60'
+                        ></Image></li>
+                        
+                        <li className='css3'><Image
+                        src={css3}
+                        width='70'
+                        height='70'
+                        ></Image></li>
+                        
+                        <li className='html'><Image
+                        src={html}
+                        width='70'
+                        height='70'
+                        ></Image></li>
+                        
+                        <li className='javascript'><Image
+                        src={javascript}
+                        width='70'
+                        height='70'
+                        ></Image></li>
+                        
+                        <li className='node'><Image
+                        src={node}
+                        width='70'
+                        height='70'
+                        ></Image></li>
+                        
+                        <li className='material'><Image
+                        src={material}
+                        width='60'
+                        height='60'
+                        ></Image></li>
+                       
                     </ul>
                     <div className="subheading mb-3">Workflow</div>
                     <ul className="fa-ul mb-0">
